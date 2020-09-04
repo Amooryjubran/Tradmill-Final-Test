@@ -40,6 +40,9 @@ li {
   color: #414042a1;
 }
 
+a {
+  color: inherit;
+}
 li:hover {
   opacity: 0.5;
 }
