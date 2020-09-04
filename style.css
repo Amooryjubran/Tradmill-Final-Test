@@ -33,11 +33,15 @@ nav {
 li {
   font-family: "Bebas Neue", cursive;
   display: inline-block;
-  display: inline-block;
+
   margin: 0 2rem;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   cursor: pointer;
-  color: #9d9d9e;
+  color: #414042a1;
+}
+
+li:hover {
+  opacity: 0.5;
 }
 
 .logo {
@@ -45,6 +49,11 @@ li {
   font-size: 25px;
   margin-top: 15px;
   font-family: Jenna Sue;
+  cursor: pointer;
+}
+
+.logo:hover {
+  opacity: 0.5;
 }
 
 .slide-container .prev,
@@ -163,9 +172,10 @@ li {
   padding: 20px;
   /* padding-top: 0; */
   font-size: 18px;
-  margin: 10px auto;
+  margin: -10px auto;
   max-height: 270px;
   overflow: hidden;
+  color: #9d9d9e;
   text-align: left;
   font-family: "Bebas Neue", cursive;
   display: none;
